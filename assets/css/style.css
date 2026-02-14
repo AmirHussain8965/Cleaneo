@@ -35,7 +35,7 @@ body{
     transition: all 0.5s ease;
 }
 .header_section.scrolled{
-    background-color: #000000;
+    background: linear-gradient(90deg, #232958 0%, #010101 100%);
     padding: 12px 10px;
     top: 0px;
 }
@@ -289,7 +289,7 @@ body{
     object-fit: cover;
 }
 .home_sec1_left_cards_body{
-    background-color: rgba(35,41,88,1);
+    background: linear-gradient(90deg, #232958 0%, #010101 100%);
     border: 2px solid #000000;
     min-height: 200px;
     margin-top: 20px;
@@ -302,7 +302,7 @@ body{
     gap: 12px;
 }
 .home_sec1_left_cards_body.nonactive{
-    background-color: #FFFFFF;
+    background: #FFFFFF;
 }
 .home_sec1_left_cards_body.nonactive p{
     color: #000000;
@@ -318,7 +318,7 @@ body{
     text-transform: capitalize;
 }
 .home_section_two{
-    background: rgba(35,41,88,1);
+    background: linear-gradient(90deg, #232958 0%, #010101 100%);
     width: 100%;
     padding: 100px 0px;
 }
@@ -502,7 +502,7 @@ body{
 .home_sec3_cards_body{
     min-width: 230px;
     max-width: 230px;
-    background-color: rgba(35,41,88,1);
+    background: linear-gradient(90deg, #232958 0%, #010101 100%);
     border: 2px solid #000000;
     min-height: 200px;
     margin-top: 10px;
@@ -515,7 +515,7 @@ body{
     gap: 12px;
 }
 .home_sec3_cards_body.nonactive2{
-    background-color: #FFFFFF;
+    background: #FFFFFF;
 }
 .home_sec3_cards_body.nonactive2 p{
     color: #000000;
@@ -710,7 +710,7 @@ body{
     margin-top: 50px;
 }
 .home_sec7_main{
-    background-color: rgba(35, 41, 88, 1);
+    background: linear-gradient(90deg, #232958 0%, #010101 100%);
     padding: 60px 40px;
     border-radius: 12px;
 }
@@ -741,7 +741,7 @@ body{
 }
 .footer_section{
     margin-top: 80px;
-    background-color: #000000;
+    background: linear-gradient(90deg, #232958 0%, #010101 100%);
     padding: 30px 0px 0px 0px;
 }
 .footer_main_div{
@@ -774,6 +774,7 @@ body{
     margin-top: 15px;
     display: block;
     max-width: fit-content;
+    color: #FFFFFFB2;
 }
 .footer_text1_icons{
     display: flex;
@@ -832,7 +833,7 @@ body{
     bottom: 20px;
     width: 48px;
     height: 48px;
-    background-color: #000000;
+    background: linear-gradient(90deg, #232958 0%, #010101 100%);
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -1097,6 +1098,12 @@ body{
 @media (max-width: 1366px){}
 @media (max-width: 1110px){}
 @media (max-width: 992px) {
+    .header_section .dropdown-menu{
+        background-color: transparent;
+    }
+    .header_section .dropdown-menu .dropdown-item{
+        margin-top: 12px;
+    }
     .home_sec3_cards_main{
         justify-content: center;
     }
@@ -1109,6 +1116,13 @@ body{
     .wwr_sec_left_txt_main{
         margin-bottom: 35px;
     }
+    .header_section {
+        border-top: 1px solid gray;
+        background: linear-gradient(90deg, #232958 0%, #010101 100%);
+    }
+    .header_section.scrolled{
+        border-top: none;
+    }
 }
 @media (max-width: 768px){
     .footer_bottom_bar{
@@ -1118,6 +1132,10 @@ body{
     }
 }
 @media (max-width: 576px){
+    .home_sec3_cards_body{
+        width: 100%;
+        max-width: 280px;
+    }
     .hero_section#Services_Hero{
         min-height: 600px;
     }
