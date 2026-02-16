@@ -11,7 +11,7 @@ body{
     scroll-behavior: smooth;
 }
 .top_section{
-    background-color: #000000;
+    background: #0a2a1b;
     padding: 8px;
 }
 .top_sec_txt p{
@@ -35,7 +35,7 @@ body{
     transition: all 0.5s ease;
 }
 .header_section.scrolled{
-    background: linear-gradient(90deg, #232958 0%, #010101 100%);
+    background: #0a2a1b;
     padding: 12px 10px;
     top: 0px;
 }
@@ -90,7 +90,7 @@ body{
     transform: scaleX(1);
 }
 .header_section .dropdown-menu{
-    background-color: #000000;
+    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
 }
 /* .header_section .dropdown-menu {
     display: block;
@@ -125,7 +125,7 @@ body{
     position: relative !important;
     width: 16px !important;
     height: 10px !important;
-    background-image: url(../../assets/imgs/arrow.png);
+    background-image: url(../../assets/img/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -268,7 +268,7 @@ body{
     font-weight: 700;
     font-size: 46px;
     letter-spacing: 0px;
-    color: rgba(35,41,88,1);
+    color: #0a2a1b;
     margin-bottom: 0;
     margin-top: 10px;
     text-transform: capitalize;
@@ -289,7 +289,8 @@ body{
     object-fit: cover;
 }
 .home_sec1_left_cards_body{
-    background: linear-gradient(90deg, #232958 0%, #010101 100%);
+    /* background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%); */
+    background-color: #0a2a1b;
     border: 2px solid #000000;
     min-height: 200px;
     margin-top: 20px;
@@ -318,7 +319,7 @@ body{
     text-transform: capitalize;
 }
 .home_section_two{
-    background: linear-gradient(90deg, #232958 0%, #010101 100%);
+    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
     width: 100%;
     padding: 100px 0px;
 }
@@ -347,7 +348,7 @@ body{
     /* font-weight: 700; */
     font-size: 32px;
     letter-spacing: 0px;
-    color: rgba(35, 41, 88, 1);
+    color: #0a2a1b;
     margin-bottom: 0;
     margin-top: 10px;
     text-transform: capitalize;
@@ -374,7 +375,7 @@ body{
     min-height: 150px;
 }
 .home_sec2_card_txt h4{
-    color: #000000;
+    color: #0a2a1b;
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 0;
@@ -388,7 +389,7 @@ body{
     font-weight: 300;
 }
 .home_sec2_card_body_div a button{
-    background-color: #000000;
+    background-color: #0a2a1b;
     text-decoration: none;
     font-size: 16px;
     font-weight: 300;
@@ -396,6 +397,7 @@ body{
     color: #FFFFFF;
     border: none;
     padding: 8px 20px;
+    width: 100%;
 }
 .wwr_section{
     padding: 80px 0px;
@@ -405,7 +407,7 @@ body{
     font-weight: 700;
     font-size: 46px;
     letter-spacing: 0px;
-    color: rgba(35, 41, 88, 1);
+    color: #0a2a1b;
     margin-top: 10px;
     text-transform: capitalize;
 }
@@ -421,8 +423,8 @@ body{
 .wwr_sec_left_txt_main button{
     margin-top: 30px;
     background-color: transparent;
-    border: 2px solid rgba(35,41,88,1);
-    color: rgba(35,41,88,1);
+    border: 2px solid #0a2a1b;
+    color: #0a2a1b;
     padding: 12px 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -430,11 +432,13 @@ body{
 }
 .wwr_right_img img{
     width: 100%;
+    height: 650px;
+    object-fit: cover;
 }
 .promise_section{
     margin-top: 50px;
     padding: 80px 0px 60px 0px;
-    background-image: linear-gradient(90deg, #232958 0%, #010101 100%);
+    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
     position: relative;
 }
 .promise_sec_txt_main{
@@ -450,6 +454,7 @@ body{
     z-index: 1;
     height: 40px;
     width: 40px;
+    filter: saturate(0.5);
 }
 .promise_sec_txt_main h2{
     font-family: "Oswald", sans-serif;
@@ -479,7 +484,7 @@ body{
 .home_sec3_title h2{
     font-family: "Oswald", sans-serif;
     font-size: 42px;
-    color: rgba(35,41,88,1);
+    color: #0a2a1b;
     font-weight: 500;
     margin-bottom: 10px;
     text-transform: capitalize;
@@ -502,7 +507,8 @@ body{
 .home_sec3_cards_body{
     min-width: 230px;
     max-width: 230px;
-    background: linear-gradient(90deg, #232958 0%, #010101 100%);
+    /* background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%); */
+    background: #0a2a1b;
     border: 2px solid #000000;
     min-height: 200px;
     margin-top: 10px;
@@ -546,7 +552,7 @@ body{
 }
 .home_sec5_title h2{
     font-size: 42px;
-    color: rgba(35,41,88,1);
+    color: #0a2a1b;
     font-weight: 500;
     font-family: "Oswald", sans-serif;
 }
@@ -582,12 +588,12 @@ body{
     margin-bottom: 0;
 }
 .home_sec5_accordion_main .accordion-button::after{
-    background-image: url(../../assets/imgs/add.png);
+    background-image: url(../../assets/img/add.png);
     opacity: 0.6;
     transform: rotate(-90deg);
 }
 .accordion-button:not(.collapsed)::after{
-    background-image: url(../../assets/imgs/minus.png);
+    background-image: url(../../assets/img/minus.png);
     transform: rotate(0deg);
 }
 .home_section_six{
@@ -603,7 +609,7 @@ body{
     margin-top: 40px;
 }
 .home_sec6_icon_div{
-    background-color: rgba(35, 41, 88, 1);
+    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
     height: 60px;
     width: 60px;
     min-width: 60px;
@@ -622,7 +628,7 @@ body{
 .home_sec6_text_div h2{
     font-family: "Oswald", sans-serif;
     font-size: 20px;
-    color: rgba(35, 41, 88, 1);
+    color: #0a2a1b;
     font-weight: 500;
     margin-bottom: 0;
 }
@@ -640,7 +646,7 @@ body{
     align-items: center;
 }
 .home_sec6_text_div a i{
-    color: rgba(35, 41, 88, 1);
+    color: #0a2a1b;
     font-size: 24px;
     margin-right: 10px;
 }
@@ -669,13 +675,13 @@ body{
 .testimonial_card_txt h4{
     font-family: "Oswald", sans-serif;
     font-size: 32px;
-    color: rgba(35, 41, 88, 1);
+    color: #0a2a1b;
     font-weight: 500;
     margin-bottom: 8px;
 }
 .testimonial_card_txt h6{
     font-size: 20px;
-    color: rgba(35, 41, 88, 1);
+    color: #0a2a1b;
     font-weight: 500;
     margin-top: 40px;
     width: fit-content;
@@ -710,7 +716,7 @@ body{
     margin-top: 50px;
 }
 .home_sec7_main{
-    background: linear-gradient(90deg, #232958 0%, #010101 100%);
+    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
     padding: 60px 40px;
     border-radius: 12px;
 }
@@ -734,14 +740,14 @@ body{
     margin-top: 30px;
     background-color: #FFFFFF;
     border: none;
-    color: rgba(35, 41, 88, 1);
+    color: #0a2a1b;
     font-weight: 400;
     padding: 12px 30px;
     border-radius: 8px;
 }
 .footer_section{
     margin-top: 80px;
-    background: linear-gradient(90deg, #232958 0%, #010101 100%);
+    background: #0a2a1b;
     padding: 30px 0px 0px 0px;
 }
 .footer_main_div{
@@ -833,7 +839,7 @@ body{
     bottom: 20px;
     width: 48px;
     height: 48px;
-    background: linear-gradient(90deg, #232958 0%, #010101 100%);
+    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -889,10 +895,19 @@ body{
 }
 
 /* Platform Colors */
-.facebook { background: #1877f2; }
-.instagram { background: #e1306c; }
+.facebook {
+    background: #1877f2;
+    display: none;
+}
+.instagram { 
+    background: #e1306c;
+    display: none;
+}
 .whatsapp { background: #25d366; }
-.linkedin { background: #0a66c2; }
+.linkedin { 
+    background: #0a66c2;
+    display: none; 
+}
 @keyframes floatUpDown {
     0% {
         transform: translateY(0);
@@ -940,7 +955,7 @@ body{
     font-weight: 700;
     font-size: 46px;
     letter-spacing: 0px;
-    color: rgba(35,41,88,1);
+    color: #0a2a1b;
     margin-bottom: 0;
     margin-top: 10px;
     text-transform: capitalize;
@@ -957,8 +972,8 @@ body{
 .service_sec1_text_main button{
     margin-top: 30px;
     background-color: transparent;
-    border: 2px solid rgba(35,41,88,1);
-    color: rgba(35,41,88,1);
+    border: 2px solid #0a2a1b;
+    color: #0a2a1b;
     padding: 12px 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -975,7 +990,7 @@ body{
     padding: 50px 0px;
 }
 .contact_form{
-    border: 2px solid #000000;
+    border: 2px solid #0a2a1b;
     width: 100%;
     max-width: 576px;
     margin: auto;
@@ -989,7 +1004,7 @@ body{
 .contact_title h2 {
     font-family: "Oswald", sans-serif;
     font-size: 48px;
-    color: rgba(35, 41, 88, 1);
+    color: #0a2a1b;
     font-weight: 500;
     margin-bottom: 10px;
     text-transform: capitalize;
@@ -1003,6 +1018,7 @@ body{
     margin-bottom: 16px;
 }
 .form_group label {
+    color: #0a2a1b;
     display: block;
     font-size: 16px;
     margin-bottom: 6px;
@@ -1032,7 +1048,7 @@ body{
 .submit_btn {
     width: 100%;
     padding: 12px;
-    background: #000000;
+    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
     border: none;
     color: #fff;
     font-size: 15px;
@@ -1118,7 +1134,7 @@ body{
     }
     .header_section {
         border-top: 1px solid gray;
-        background: linear-gradient(90deg, #232958 0%, #010101 100%);
+        background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
     }
     .header_section.scrolled{
         border-top: none;
@@ -1132,6 +1148,11 @@ body{
     }
 }
 @media (max-width: 576px){
+    .wwr_right_img img{
+        width: 100%;
+        height: 500;
+        object-fit: cover;
+    }
     .home_sec3_cards_body{
         width: 100%;
         max-width: 280px;
@@ -1143,7 +1164,7 @@ body{
         font-size: 36px;
     }
     .home_sec7_main {
-        background-color: rgba(35, 41, 88, 1);
+        background-color: #0a2a1b;
         padding: 40px 20px;
         border-radius: 12px;
     }
@@ -1167,7 +1188,7 @@ body{
     }
     .home_sec3_title h2 {
         font-size: 36px;
-        color: rgba(35, 41, 88, 1);
+        color: #0a2a1b;
     }
     .hero_text_main h1 {
         font-weight: 400;
@@ -1186,4 +1207,9 @@ body{
         font-size: 36px;
     }
 }
-@media (max-width: 380px){}
+@media (max-width: 420px){
+    .wwr_right_img img{
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+    }}
