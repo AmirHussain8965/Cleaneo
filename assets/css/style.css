@@ -11,7 +11,7 @@ body{
     scroll-behavior: smooth;
 }
 .top_section{
-    background: #0a2a1b;
+    background: #7FDD4C;
     padding: 8px;
 }
 .top_sec_txt p{
@@ -35,7 +35,7 @@ body{
     transition: all 0.5s ease;
 }
 .header_section.scrolled{
-    background: #0a2a1b;
+    background: #7FDD4C;
     padding: 12px 10px;
     top: 0px;
 }
@@ -90,7 +90,7 @@ body{
     transform: scaleX(1);
 }
 .header_section .dropdown-menu{
-    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
+    background: #7FDD4C;
 }
 /* .header_section .dropdown-menu {
     display: block;
@@ -266,18 +266,18 @@ body{
 .home_sec1_left_txt h2{
     font-family: "Oswald", sans-serif;
     font-weight: 700;
-    font-size: 46px;
+    font-size: 42px;
     letter-spacing: 0px;
-    color: #0a2a1b;
+    color: #000000;
     margin-bottom: 0;
     margin-top: 10px;
     text-transform: capitalize;
 }
 .home_sec1_left_txt p{
-    margin-top: 20px;
+    margin-top: 15px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 22px;
     letter-spacing: 0px;
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 0;
@@ -289,9 +289,8 @@ body{
     object-fit: cover;
 }
 .home_sec1_left_cards_body{
-    /* background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%); */
-    background-color: #0a2a1b;
-    border: 2px solid #000000;
+    background: #7FDD4C;
+    border: 1px solid #364153;
     min-height: 200px;
     margin-top: 20px;
     padding: 20px 12px;
@@ -302,11 +301,8 @@ body{
     text-align: center;
     gap: 12px;
 }
-.home_sec1_left_cards_body.nonactive{
-    background: #FFFFFF;
-}
-.home_sec1_left_cards_body.nonactive p{
-    color: #000000;
+.home_sec1_left_cards_body.nonactive img{
+    filter: invert(1);
 }
 .home_sec1_left_cards_body img{
     height: 55px;
@@ -319,7 +315,7 @@ body{
     text-transform: capitalize;
 }
 .home_section_two{
-    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
+    background: #7FDD4C;
     width: 100%;
     padding: 100px 0px;
 }
@@ -348,7 +344,7 @@ body{
     /* font-weight: 700; */
     font-size: 32px;
     letter-spacing: 0px;
-    color: #0a2a1b;
+        color: #7FDD4C;
     margin-bottom: 0;
     margin-top: 10px;
     text-transform: capitalize;
@@ -375,7 +371,7 @@ body{
     min-height: 150px;
 }
 .home_sec2_card_txt h4{
-    color: #0a2a1b;
+        color: #7FDD4C;
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 0;
@@ -389,7 +385,7 @@ body{
     font-weight: 300;
 }
 .home_sec2_card_body_div a button{
-    background-color: #0a2a1b;
+    background: #7FDD4C;
     text-decoration: none;
     font-size: 16px;
     font-weight: 300;
@@ -407,7 +403,7 @@ body{
     font-weight: 700;
     font-size: 46px;
     letter-spacing: 0px;
-    color: #0a2a1b;
+        color: #000000;
     margin-top: 10px;
     text-transform: capitalize;
 }
@@ -422,9 +418,9 @@ body{
 }
 .wwr_sec_left_txt_main button{
     margin-top: 30px;
-    background-color: transparent;
-    border: 2px solid #0a2a1b;
-    color: #0a2a1b;
+    background-color: #7FDD4C;
+    border: 2px solid #7FDD4C;
+    color: #FFFFFF;
     padding: 12px 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -438,7 +434,7 @@ body{
 .promise_section{
     margin-top: 50px;
     padding: 80px 0px 60px 0px;
-    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
+    background: #7FDD4C;
     position: relative;
 }
 .promise_sec_txt_main{
@@ -484,7 +480,7 @@ body{
 .home_sec3_title h2{
     font-family: "Oswald", sans-serif;
     font-size: 42px;
-    color: #0a2a1b;
+        color: #000000;
     font-weight: 500;
     margin-bottom: 10px;
     text-transform: capitalize;
@@ -507,9 +503,8 @@ body{
 .home_sec3_cards_body{
     min-width: 230px;
     max-width: 230px;
-    /* background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%); */
-    background: #0a2a1b;
-    border: 2px solid #000000;
+    background: #7FDD4C;
+    border: 1px solid #000000   ;
     min-height: 200px;
     margin-top: 10px;
     padding: 15px 12px;
@@ -520,11 +515,8 @@ body{
     text-align: center;
     gap: 12px;
 }
-.home_sec3_cards_body.nonactive2{
-    background: #FFFFFF;
-}
-.home_sec3_cards_body.nonactive2 p{
-    color: #000000;
+.home_sec3_cards_body.nonactive2 img{
+    filter: invert(1);    
 }
 .home_sec3_cards_body img{
     height: 50px;
@@ -552,7 +544,7 @@ body{
 }
 .home_sec5_title h2{
     font-size: 42px;
-    color: #0a2a1b;
+        color: #7FDD4C;
     font-weight: 500;
     font-family: "Oswald", sans-serif;
 }
@@ -609,7 +601,7 @@ body{
     margin-top: 40px;
 }
 .home_sec6_icon_div{
-    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
+    background: #7FDD4C;
     height: 60px;
     width: 60px;
     min-width: 60px;
@@ -628,7 +620,7 @@ body{
 .home_sec6_text_div h2{
     font-family: "Oswald", sans-serif;
     font-size: 20px;
-    color: #0a2a1b;
+        color: #000000;
     font-weight: 500;
     margin-bottom: 0;
 }
@@ -646,7 +638,7 @@ body{
     align-items: center;
 }
 .home_sec6_text_div a i{
-    color: #0a2a1b;
+        color: #7FDD4C;
     font-size: 24px;
     margin-right: 10px;
 }
@@ -675,13 +667,13 @@ body{
 .testimonial_card_txt h4{
     font-family: "Oswald", sans-serif;
     font-size: 32px;
-    color: #0a2a1b;
+        color: #7FDD4C;
     font-weight: 500;
     margin-bottom: 8px;
 }
 .testimonial_card_txt h6{
     font-size: 20px;
-    color: #0a2a1b;
+        color: #7FDD4C;
     font-weight: 500;
     margin-top: 40px;
     width: fit-content;
@@ -716,7 +708,7 @@ body{
     margin-top: 50px;
 }
 .home_sec7_main{
-    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
+    background: #7FDD4C;
     padding: 60px 40px;
     border-radius: 12px;
 }
@@ -740,14 +732,14 @@ body{
     margin-top: 30px;
     background-color: #FFFFFF;
     border: none;
-    color: #0a2a1b;
+        color: #7FDD4C;
     font-weight: 400;
     padding: 12px 30px;
     border-radius: 8px;
 }
 .footer_section{
     margin-top: 80px;
-    background: #0a2a1b;
+    background: #7FDD4C;
     padding: 30px 0px 0px 0px;
 }
 .footer_main_div{
@@ -802,7 +794,7 @@ body{
 .footer_links_main a{
     font-weight: 400;
     font-size: 16px;
-    color: #C6C6C6;
+    color: #FFFFFF;
     text-decoration: none;
     display: block;
     max-width: fit-content;
@@ -819,7 +811,7 @@ body{
 .footer_bottom_bar p{
     font-weight: 400;
     font-size: 14px;
-    color: #C6C6C6;
+    color: #FFFFFF;
     margin-bottom: 0;
 }
 .footer_bottom_links{
@@ -830,7 +822,7 @@ body{
 .footer_bottom_links a{
     font-weight: 400;
     font-size: 14px;
-    color: #C6C6C6;
+    color: #FFFFFF;
     text-decoration: none;
 }
 #backToTop {
@@ -839,7 +831,7 @@ body{
     bottom: 20px;
     width: 48px;
     height: 48px;
-    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
+    background: #7FDD4C;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -955,7 +947,7 @@ body{
     font-weight: 700;
     font-size: 46px;
     letter-spacing: 0px;
-    color: #0a2a1b;
+        color: #7FDD4C;
     margin-bottom: 0;
     margin-top: 10px;
     text-transform: capitalize;
@@ -971,9 +963,9 @@ body{
 }
 .service_sec1_text_main button{
     margin-top: 30px;
-    background-color: transparent;
-    border: 2px solid #0a2a1b;
-    color: #0a2a1b;
+    background-color: #7FDD4C;
+    border: 2px solid #7FDD4C;
+    color: #FFFFFF;
     padding: 12px 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -990,7 +982,7 @@ body{
     padding: 50px 0px;
 }
 .contact_form{
-    border: 2px solid #0a2a1b;
+    border: 2px solid #7FDD4C;
     width: 100%;
     max-width: 576px;
     margin: auto;
@@ -1004,7 +996,7 @@ body{
 .contact_title h2 {
     font-family: "Oswald", sans-serif;
     font-size: 48px;
-    color: #0a2a1b;
+    color: #000;
     font-weight: 500;
     margin-bottom: 10px;
     text-transform: capitalize;
@@ -1018,7 +1010,7 @@ body{
     margin-bottom: 16px;
 }
 .form_group label {
-    color: #0a2a1b;
+        color: #000000;
     display: block;
     font-size: 16px;
     margin-bottom: 6px;
@@ -1048,7 +1040,7 @@ body{
 .submit_btn {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
+    background: #7FDD4C;
     border: none;
     color: #fff;
     font-size: 15px;
@@ -1057,8 +1049,10 @@ body{
     overflow: hidden;
 }
 .submit_btn:disabled {
-    background: #364153;
+    background: #a9f87b;
     cursor: not-allowed;
+    border: 1px solid #7FDD4C;
+    color: #000000;
 }
 .btn_loader {
     width: 18px;
@@ -1111,7 +1105,12 @@ body{
         max-width: 1500px;
     }
 }
-@media (max-width: 1366px){}
+@media (max-width: 1366px){
+    .home_sec3_cards_body {
+        min-width: 215px;
+        max-width: 215px;
+    }
+}
 @media (max-width: 1110px){}
 @media (max-width: 992px) {
     .header_section .dropdown-menu{
@@ -1134,7 +1133,7 @@ body{
     }
     .header_section {
         border-top: 1px solid gray;
-        background: linear-gradient(90deg, #3fd6a3 0%, #0a2a1b 100%);
+        background: #7FDD4C;
     }
     .header_section.scrolled{
         border-top: none;
@@ -1164,7 +1163,7 @@ body{
         font-size: 36px;
     }
     .home_sec7_main {
-        background-color: #0a2a1b;
+        background: #7FDD4C;
         padding: 40px 20px;
         border-radius: 12px;
     }
@@ -1188,7 +1187,7 @@ body{
     }
     .home_sec3_title h2 {
         font-size: 36px;
-        color: #0a2a1b;
+            color: #7FDD4C;
     }
     .hero_text_main h1 {
         font-weight: 400;
