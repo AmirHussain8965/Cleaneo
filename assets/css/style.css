@@ -11,7 +11,7 @@ body{
     scroll-behavior: smooth;
 }
 .top_section{
-    background: #7FDD4C;
+    background: #34A040;
     padding: 8px;
 }
 .top_sec_txt p{
@@ -35,7 +35,7 @@ body{
     transition: all 0.5s ease;
 }
 .header_section.scrolled{
-    background: #7FDD4C;
+    background: #34A040;
     padding: 12px 10px;
     top: 0px;
 }
@@ -90,31 +90,25 @@ body{
     transform: scaleX(1);
 }
 .header_section .dropdown-menu{
-    background: #7FDD4C;
-}
-/* .header_section .dropdown-menu {
-    display: block;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(15px);
-    transition: all 0.3s ease;
-    background-color: #000000;
+    background: #34A040;
+    top: 51px;
     border: none;
-    min-width: 220px;
-} */
+    border-radius: 0px;
+}
 .header_section .dropdown-menu .dropdown-item{
     font-size: 16px !important;
     font-weight: 300 !important;
     margin-top: 6px;
 }
 .header_section .dropdown-menu .dropdown-item:hover{
-    background-color: #3762E9;
+    background-color: #34A040;
     color: #FFFFFF !important;
 }
 .header_section .dropdown-menu.show {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+
 }
 .dropdown-toggle::after{
     content: "" !important;
@@ -265,7 +259,7 @@ body{
 }
 .home_sec1_left_txt h2{
     font-family: "Oswald", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 42px;
     letter-spacing: 0px;
     color: #000000;
@@ -289,7 +283,7 @@ body{
     object-fit: cover;
 }
 .home_sec1_left_cards_body{
-    background: #7FDD4C;
+    background: #34A040;
     border: 1px solid #364153;
     min-height: 200px;
     margin-top: 20px;
@@ -315,17 +309,17 @@ body{
     text-transform: capitalize;
 }
 .home_section_two{
-    background: #7FDD4C;
+    background: transparent;
     width: 100%;
     padding: 100px 0px;
 }
 .home_sec2_title1{
     position: relative;
     padding-left: 15px;
-    border-bottom: 1px solid #4A5565;
+    border-bottom: 1px solid #34A040;
     padding-bottom: 7px;
     font-size: 16px;
-    color: #ffffff;
+    color: #34A040;
     font-weight: 300;
 }
 .home_sec2_title1::before{
@@ -334,7 +328,7 @@ body{
     top: 7px;
     left: 0;
     bottom: 0;
-    background-color: #ffffff;
+    background-color: #34A040;
     height: 7px;
     width: 7px;
     border-radius: 50%;
@@ -344,11 +338,10 @@ body{
     /* font-weight: 700; */
     font-size: 32px;
     letter-spacing: 0px;
-        color: #7FDD4C;
+    color: #000000;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 30px;
     text-transform: capitalize;
-    color: #ffffff;
 }
 .home_sec2_card_body_div{
     margin-top: 25px;
@@ -371,7 +364,7 @@ body{
     min-height: 150px;
 }
 .home_sec2_card_txt h4{
-        color: #7FDD4C;
+    color: #000000;
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 0;
@@ -385,7 +378,7 @@ body{
     font-weight: 300;
 }
 .home_sec2_card_body_div a button{
-    background: #7FDD4C;
+    background: #34A040;
     text-decoration: none;
     font-size: 16px;
     font-weight: 300;
@@ -403,7 +396,7 @@ body{
     font-weight: 700;
     font-size: 46px;
     letter-spacing: 0px;
-        color: #000000;
+    color: #000000;
     margin-top: 10px;
     text-transform: capitalize;
 }
@@ -418,8 +411,8 @@ body{
 }
 .wwr_sec_left_txt_main button{
     margin-top: 30px;
-    background-color: #7FDD4C;
-    border: 2px solid #7FDD4C;
+    background-color: #34A040;
+    border: 2px solid #34A040;
     color: #FFFFFF;
     padding: 12px 20px;
     font-weight: 500;
@@ -434,7 +427,7 @@ body{
 .promise_section{
     margin-top: 50px;
     padding: 80px 0px 60px 0px;
-    background: #7FDD4C;
+    background: #34A040;
     position: relative;
 }
 .promise_sec_txt_main{
@@ -480,7 +473,7 @@ body{
 .home_sec3_title h2{
     font-family: "Oswald", sans-serif;
     font-size: 42px;
-        color: #000000;
+    color: #000000;
     font-weight: 500;
     margin-bottom: 10px;
     text-transform: capitalize;
@@ -503,7 +496,7 @@ body{
 .home_sec3_cards_body{
     min-width: 230px;
     max-width: 230px;
-    background: #7FDD4C;
+    background: #34A040;
     border: 1px solid #000000   ;
     min-height: 200px;
     margin-top: 10px;
@@ -544,7 +537,7 @@ body{
 }
 .home_sec5_title h2{
     font-size: 42px;
-        color: #7FDD4C;
+    color: #000000;
     font-weight: 500;
     font-family: "Oswald", sans-serif;
 }
@@ -601,7 +594,7 @@ body{
     margin-top: 40px;
 }
 .home_sec6_icon_div{
-    background: #7FDD4C;
+    background: #34A040;
     height: 60px;
     width: 60px;
     min-width: 60px;
@@ -620,7 +613,7 @@ body{
 .home_sec6_text_div h2{
     font-family: "Oswald", sans-serif;
     font-size: 20px;
-        color: #000000;
+    color: #000000;
     font-weight: 500;
     margin-bottom: 0;
 }
@@ -638,7 +631,7 @@ body{
     align-items: center;
 }
 .home_sec6_text_div a i{
-        color: #7FDD4C;
+    color: #34A040;
     font-size: 24px;
     margin-right: 10px;
 }
@@ -667,13 +660,13 @@ body{
 .testimonial_card_txt h4{
     font-family: "Oswald", sans-serif;
     font-size: 32px;
-        color: #7FDD4C;
+    color: #34A040;
     font-weight: 500;
     margin-bottom: 8px;
 }
 .testimonial_card_txt h6{
     font-size: 20px;
-        color: #7FDD4C;
+    color: #34A040;
     font-weight: 500;
     margin-top: 40px;
     width: fit-content;
@@ -708,7 +701,7 @@ body{
     margin-top: 50px;
 }
 .home_sec7_main{
-    background: #7FDD4C;
+    background: #34A040;
     padding: 60px 40px;
     border-radius: 12px;
 }
@@ -732,14 +725,14 @@ body{
     margin-top: 30px;
     background-color: #FFFFFF;
     border: none;
-        color: #7FDD4C;
+    color: #34A040;
     font-weight: 400;
     padding: 12px 30px;
     border-radius: 8px;
 }
 .footer_section{
     margin-top: 80px;
-    background: #7FDD4C;
+    background: #34A040;
     padding: 30px 0px 0px 0px;
 }
 .footer_main_div{
@@ -831,7 +824,7 @@ body{
     bottom: 20px;
     width: 48px;
     height: 48px;
-    background: #7FDD4C;
+    background: #34A040;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -944,10 +937,10 @@ body{
 }
 .service_sec1_text_main h1{
     font-family: "Oswald", sans-serif;
-    font-weight: 700;
-    font-size: 46px;
+    font-weight: 600;
+    font-size: 42px;
     letter-spacing: 0px;
-        color: #7FDD4C;
+    color: #000;
     margin-bottom: 0;
     margin-top: 10px;
     text-transform: capitalize;
@@ -963,8 +956,8 @@ body{
 }
 .service_sec1_text_main button{
     margin-top: 30px;
-    background-color: #7FDD4C;
-    border: 2px solid #7FDD4C;
+    background-color: #34A040;
+    border: 2px solid #34A040;
     color: #FFFFFF;
     padding: 12px 20px;
     font-weight: 500;
@@ -982,7 +975,7 @@ body{
     padding: 50px 0px;
 }
 .contact_form{
-    border: 2px solid #7FDD4C;
+    border: 2px solid #34A040;
     width: 100%;
     max-width: 576px;
     margin: auto;
@@ -1010,7 +1003,7 @@ body{
     margin-bottom: 16px;
 }
 .form_group label {
-        color: #000000;
+    color: #000000;
     display: block;
     font-size: 16px;
     margin-bottom: 6px;
@@ -1040,7 +1033,7 @@ body{
 .submit_btn {
     width: 100%;
     padding: 12px;
-    background: #7FDD4C;
+    background: #34A040;
     border: none;
     color: #fff;
     font-size: 15px;
@@ -1051,7 +1044,7 @@ body{
 .submit_btn:disabled {
     background: #a9f87b;
     cursor: not-allowed;
-    border: 1px solid #7FDD4C;
+    border: 1px solid #34A040;
     color: #000000;
 }
 .btn_loader {
@@ -1133,7 +1126,7 @@ body{
     }
     .header_section {
         border-top: 1px solid gray;
-        background: #7FDD4C;
+        background: #34A040;
     }
     .header_section.scrolled{
         border-top: none;
@@ -1163,7 +1156,7 @@ body{
         font-size: 36px;
     }
     .home_sec7_main {
-        background: #7FDD4C;
+        background: #34A040;
         padding: 40px 20px;
         border-radius: 12px;
     }
@@ -1187,7 +1180,7 @@ body{
     }
     .home_sec3_title h2 {
         font-size: 36px;
-            color: #7FDD4C;
+        color: #34A040;
     }
     .hero_text_main h1 {
         font-weight: 400;
@@ -1198,7 +1191,6 @@ body{
         font-size: 16px;
     }
     .home_sec1_left_txt h2 {
-        font-weight: 700;
         font-size: 32px;
     }
     .wwr_sec_left_txt_main h2 {
